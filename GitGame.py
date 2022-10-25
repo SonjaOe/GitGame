@@ -47,7 +47,7 @@ while True:
         print("Väärin...")
     print()
     
-    question6 = input(print("Montako virallista kissarotua on olemassa Suomen kissaliiton mukaan? a) noin 60 b) noin 50 c) noin 40\n"))
+    question6 = str(input("Montako virallista kissarotua on olemassa Suomen kissaliiton mukaan? a) noin 60 b) noin 50 c) noin 40\n"))
     if question6 == "b" or question6 == "50":
         count += 1
         print("Oikein!")
