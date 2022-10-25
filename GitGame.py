@@ -5,6 +5,7 @@ while True:
     if letsplay != "kyllä":
         print("Ei sitten! :(")
         break
+
     print()
 
     question1 = str(input("Montako varvasta kissalla on? a) 20 b) 18 c) 16\n"))
